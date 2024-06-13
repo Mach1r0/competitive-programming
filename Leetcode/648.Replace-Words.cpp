@@ -2,24 +2,6 @@
 #include<sstream>
 #include<string>
 #include<vector>
-<<<<<<< HEAD
-using namespace std;
-
-int main(void) {
-    string str; 
-    string sentence; 
-    stringstream ss(str);
-    int a; 
-    size_t pos = str.find(sentence);
-    for (int i = 0; i < str.size(); i++){
-        if (str == sentence){
-            str.replace(pos, str.size(), sentece);
-        }
-    }
-    cin >> str; 
-    return 0;
-}
-=======
 #include<algorithm>
 #include<map>
 using namespace std;
@@ -43,4 +25,3 @@ public:
         return result;
     }
 };
->>>>>>> 51fedbeeda10ecfddf0cf4b44da5487bcf0287a8
